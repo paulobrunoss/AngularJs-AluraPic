@@ -10,6 +10,6 @@
     </div>
     <div class="row">
         <meu-painel class="col-md-2" titulo="{{foto.titulo}}" ng-repeat="foto in fotos | filter: filtro">  
-                <img class="img-responsive center-block" src="{{foto.url}}" alt="{{foto.titulo}}">
+                <minha-foto url="{{foto.url}}" titulo="{{foto.titulo}}"></minha-foto>
             </meu-painel>
     </div>
